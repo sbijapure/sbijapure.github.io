@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    background: #ffffff;
+    color: #222;
+    line-height: 1.6;
+}
+
+.site-header,
+.site-footer {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.site-footer {
+    border-top: 1px solid #ddd;
+    border-bottom: none;
+    margin-top: 40px;
+}
+
+nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #333;
+    font-size: 0.95rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.site-title {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.site-intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    color: #444;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background: #fff;
+}
+
+.card h2 {
+    font-size: 1.25rem;
+    margin-top: 0;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* Category colors (subtle) */
+
+.category-presence { border-top: 4px solid #6b8fcf; }
+.category-clarity { border-top: 4px solid #6fa38a; }
+.category-thinking { border-top: 4px solid #8a8a8a; }
+.category-learning { border-top: 4px solid #b08a5a; }
+.category-meaning { border-top: 4px solid #8c6bb1; }
+.category-relationships { border-top: 4px solid #6fa6a6; }
+.category-pages { border-top: 4px solid #999; }
+
+.article-content {
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+.article-content h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.article-content p {
+    font-size: 1.05rem;
+    margin-bottom: 18px;
+}
+
+.article-content p {
+    text-align: justify;
+    hyphens: auto;
+}
+
